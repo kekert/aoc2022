@@ -8,9 +8,3 @@ println(getScore(a))
 println(getScore(b))
 
 # val(c) = islowercase(c) ? c - 'a' + 1 : c - 'A' + 27
-
-# L = readlines("input03.txt")
-# day03(L) = sum(val(first(intersect(l[1:end÷2], l[end÷2+1:end]))) for l in L)
-# day03a(L) = sum(val(first(intersect(L[i:i+2]...))) for i in 1:3:length(L))
-
-# @show day03(L), day03a(L)
