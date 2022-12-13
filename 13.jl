@@ -35,21 +35,3 @@ println(num)
 newbies = [[[2]], [[6]]]
 push!(parsed, newbies...)
 println(prod(findall(∈(newbies), sort(parsed, lt=check))))
-
-
-# compare(a::Integer, b::Integer) = sign(b - a)
-# compare(a::Integer, b::Vector) = compare([a], b)
-# compare(a::Vector, b::Integer) = compare(a, [b])
-
-# function compare(a::Vector, b::Vector)
-#     na = length(a)
-#     nb = length(b)
-
-#     for k in 1:min(na, nb)
-#         v = compare(a[k], b[k])
-#         v == 0 && continue
-#         return v
-#     end
-
-#     return sign(nb - na)
-# end
